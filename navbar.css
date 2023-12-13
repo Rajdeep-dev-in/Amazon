@@ -1,11 +1,16 @@
 *{
     margin: 0;
+    padding: 0;
 
+}
+body{
+    width: 100%;
+    height: 100%;
 }
 
 /** Top Navbar Start Here **/
 .top-nav{
-    width: 1364px;
+    width: 100%;
     height: 60px;
     background-color: #131921;
     display: flex;
@@ -74,7 +79,7 @@
     border-bottom-left-radius: 4px;
 }
 #uservalue{
-    height: 24px;
+    height: 26px;
     width: 624px;
 }
 .nav-icon{
@@ -134,7 +139,7 @@
 /** Bottom Navbar Start Here **/
 .bottom-nav{
     background-color: #232f3e;
-    width: 1365px;
+    width: 100%;
     height: 39px;
     color: #fff;
     display: flex;
@@ -151,8 +156,9 @@
     justify-content: center;
     align-items: center;
     padding-left: 8px;
-    padding-top: 3px;
-    font-weight: 700;    
+    margin-right: 25px;
+    font-weight: 700;  
+    cursor: pointer;  
 }
 .bottom-nav-all p{
     font-size: 0.90rem;
@@ -170,6 +176,7 @@
 .bottom-nav-list ul li{
     list-style-type: none;
     padding-left: 12px;
+    cursor: pointer;
     
 }
 .nav-deals{
@@ -177,6 +184,7 @@
     right: 15px;
     padding-top: 9px;
     font-weight: 700;
+    cursor: pointer;
     
 }
 
@@ -190,7 +198,7 @@
 .hero-image{
     background-image: url("heroimage.jpg");
     background-size: cover;
-    width: 1365px;
+    width: 100%;
     height: 600px;
 }
 .hero-paragraph{
@@ -199,7 +207,7 @@
     align-items: center;
     background-color: #f5f6f6;
     height: 40px;
-    width: 1309px;
+    width: 96.5%;
     margin: -25% 40px;
     margin-left: 25px;
 }
@@ -344,10 +352,9 @@
 
 .third-section{
     height: 366px;
-    width: 1305px;
+    width: 97.5%;
     background-color: #fff;
     margin-top: 20px;
-    margin-left: -12px;
 }
 
 .third-section-heading{
@@ -453,7 +460,8 @@
 }
 
 .fifth-section{
-    width: 1309px;
+    width: 98%;
+    margin-right: 8px;
     height: 260px;
     background-color: #fff;
     
@@ -557,7 +565,7 @@
 }
 .footercontent li{
     list-style-type: none;
-    padding: 6px 0px;
+    padding: 6px 0px 6px 40px;
 }
 .footercontent li:hover{
     cursor: pointer;
